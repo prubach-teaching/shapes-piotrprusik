@@ -7,7 +7,8 @@ public class EquilateralTriangle extends Shape implements PerimeterCalculation {
     }
 
     public double calcSurface(); {
-        double HP = (this.parA + this.parA + this.parA) / 2;
+    // calculating surface using side lenghts only
+        double HP = (this.parA + this.parA + this.parA) / 2; //half of the perimeter
         return Math.sqrt((HP)*(HP-this.parA)*3);
     }
 
