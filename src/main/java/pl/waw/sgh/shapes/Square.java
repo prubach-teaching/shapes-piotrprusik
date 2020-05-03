@@ -4,7 +4,7 @@ public class Square extends Shape implements PerimeterCalculation {
 
     public Square = new Square(double a)
     {
-        super(a);
+        super(a, a, 0);
     }
 
     public double calcSurface() {
