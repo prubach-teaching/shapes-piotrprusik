@@ -3,7 +3,7 @@ package pl.waw.sgh.shapes;
 public class EquilateralTriangle extends Shape implements PerimeterCalculation {
 
     public EquilateralTriangle (double a) {
-        super(a);
+        super(a, a, a);
     }
 
     public double calcSurface(); {
